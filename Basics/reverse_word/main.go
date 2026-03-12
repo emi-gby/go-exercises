@@ -7,6 +7,8 @@ func reverse(word string) string {
 	runes := []rune(word)
 	runesReversed := []rune{}
 
+	fmt.Println(runes)
+
 	for i := (len(runes)-1); i>=0; i-- {
 		runesReversed = append(runesReversed, runes[i])
 	}
